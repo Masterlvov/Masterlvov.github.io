@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>咸蛋超学锁的博客</title>
+        <link>https://MasterLvov.github.io/en/</link>
+        <description>About LoveIt Theme</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lvovriddler@gmail.com (咸蛋超学锁)</managingEditor>
+            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+            <atom:link href="https://MasterLvov.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>
