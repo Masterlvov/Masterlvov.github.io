@@ -4,37 +4,7 @@
         <link>https://MasterLvov.github.io/posts/</link>
         <description>所有文章 | 咸蛋超学锁的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>lvovriddler@gmail.com (咸蛋超学锁)</managingEditor>
-            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 07 Jun 2022 16:32:59 &#43;0800</lastBuildDate><atom:link href="https://MasterLvov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Hugo插入图片</title>
-    <link>https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</link>
-    <pubDate>Tue, 07 Jun 2022 16:32:59 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</guid>
-    <description><![CDATA[<h1 id="hugo建网站插入图片需要注意的小点">hugo建网站插入图片需要注意的小点</h1>
-<p>在文章中插入图片的方式有绝对路径和相对路劲两种，各有利弊，可以根据情况选择。</p>
-<ul>
-<li>
-<p>把图片放到 <code>static/</code>（）下，在文章中使用绝对路径引用图片</p>
-</li>
-<li>
-<p>把图片放到和文章同级目录下，通过相对路径引用图片</p>
-<p>从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 <code>hugo server -D</code>预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 <code>content/{{section}}/</code>下多嵌套一层目录。
-之所以把图片放到 <code>static/</code>下，是因为hugo在构建时会把 <code>static/</code>下所有内容移到 <code>public/</code>下。构建后 <code>content/</code>下的内容也会被移到 <code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
-</p>
-<p></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![image-相对路插入](202206070103.png)
-</span></span><span class="line"><span class="cl">第二种方法是把图片和文章放在同级目录，比如 `content/{{section}}/{{article_name}}/`，这样虽会显得 `content/`下略显冗余，但可以在预览或构建后都正确显示图片。
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-</ul>]]></description>
-</item><item>
+            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 06 Jun 2022 22:10:46 &#43;0800</lastBuildDate><atom:link href="https://MasterLvov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>一些毕业照片</title>
     <link>https://MasterLvov.github.io/%E4%B8%80%E4%BA%9B%E6%AF%95%E4%B8%9A%E7%85%A7%E7%89%87/</link>
     <pubDate>Mon, 06 Jun 2022 22:10:46 &#43;0800</pubDate>
