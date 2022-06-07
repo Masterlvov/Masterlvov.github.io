@@ -22,9 +22,17 @@
 之所以把图片放到 <code>static/</code>下，是因为hugo在构建时会把 <code>static/</code>下所有内容移到 <code>public/</code>下。构建后 <code>content/</code>下的内容也会被移到 <code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
 </p>
 <p></p>
-<p>
-第二种方法是把图片和文章放在同级目录，比如 <code>content/{{section}}/{{article_name}}/</code>，这样虽会显得 <code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p>
-</li>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![image-相对路插入](202206070103.png)
+</span></span><span class="line"><span class="cl">第二种方法是把图片和文章放在同级目录，比如 `content/{{section}}/{{article_name}}/`，这样虽会显得 `content/`下略显冗余，但可以在预览或构建后都正确显示图片。
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
 </ul>]]></description>
 </item><item>
     <title>一些毕业照片</title>
