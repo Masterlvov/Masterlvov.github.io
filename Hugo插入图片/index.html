@@ -15,11 +15,11 @@
 
 把图片放到和文章同级目录下，通过相对路径引用图片
 从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 hugo server -D预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 content/{{section}}/下多嵌套一层目录。
-之所以把图片放到static/下，是因为hugo在构建时会把static/下所有内容移到public/下。构建后content/下的内容也会被移到public/下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
+之所以把图片放到 static/下，是因为hugo在构建时会把 static/下所有内容移到 public/下。构建后 content/下的内容也会被移到 public/下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
 
 
 
-第二种方法是把图片和文章放在同级目录，比如content/{{section}}/{{article_name}}/，这样虽会显得content/下略显冗余，但可以在预览或构建后都正确显示图片。
+第二种方法是把图片和文章放在同级目录，比如 content/{{section}}/{{article_name}}/，这样虽会显得 content/下略显冗余，但可以在预览或构建后都正确显示图片。
 
 " />
 <meta property="og:type" content="article" />
@@ -40,11 +40,11 @@
 
 把图片放到和文章同级目录下，通过相对路径引用图片
 从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 hugo server -D预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 content/{{section}}/下多嵌套一层目录。
-之所以把图片放到static/下，是因为hugo在构建时会把static/下所有内容移到public/下。构建后content/下的内容也会被移到public/下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
+之所以把图片放到 static/下，是因为hugo在构建时会把 static/下所有内容移到 public/下。构建后 content/下的内容也会被移到 public/下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
 
 
 
-第二种方法是把图片和文章放在同级目录，比如content/{{section}}/{{article_name}}/，这样虽会显得content/下略显冗余，但可以在预览或构建后都正确显示图片。
+第二种方法是把图片和文章放在同级目录，比如 content/{{section}}/{{article_name}}/，这样虽会显得 content/下略显冗余，但可以在预览或构建后都正确显示图片。
 
 "/>
 <meta name="application-name" content="LoveIt">
@@ -64,7 +64,7 @@
                             "url": "https:\/\/MasterLvov.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "hugo，插图片","wordcount":  431 ,
+                        }],"genre": "posts","keywords": "hugo","wordcount":  431 ,
         "url": "https:\/\/MasterLvov.github.io\/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87\/","datePublished": "2022-06-07T16:32:59+08:00","dateModified": "2022-06-07T16:32:59+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "咸蛋超学锁","logo": {
@@ -179,9 +179,9 @@
 <p>把图片放到 <code>static/</code>（）下，在文章中使用绝对路径引用图片</p>
 </li>
 <li>
-<p>把图片放到和文章同级目录下，通过相对路径引用图片
-从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 <code>hugo server -D</code>预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 <code>content/{{section}}/</code>下多嵌套一层目录。
-之所以把图片放到<code>static/</code>下，是因为hugo在构建时会把<code>static/</code>下所有内容移到<code>public/</code>下。构建后<code>content/</code>下的内容也会被移到<code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
+<p>把图片放到和文章同级目录下，通过相对路径引用图片</p>
+<p>从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 <code>hugo server -D</code>预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 <code>content/{{section}}/</code>下多嵌套一层目录。
+之所以把图片放到 <code>static/</code>下，是因为hugo在构建时会把 <code>static/</code>下所有内容移到 <code>public/</code>下。构建后 <code>content/</code>下的内容也会被移到 <code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -205,8 +205,8 @@
         data-srcset="%e7%85%a7%e7%89%872.png, %e7%85%a7%e7%89%872.png 1.5x, %e7%85%a7%e7%89%872.png 2x"
         data-sizes="auto"
         alt="照片2.png"
-        title="image-相对路劲插入" />
-第二种方法是把图片和文章放在同级目录，比如<code>content/{{section}}/{{article_name}}/</code>，这样虽会显得<code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p>
+        title="image-相对路插入" />
+第二种方法是把图片和文章放在同级目录，比如 <code>content/{{section}}/{{article_name}}/</code>，这样虽会显得 <code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p>
 </li>
 </ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
@@ -219,13 +219,13 @@
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-title="Hugo插入图片" data-hashtags="hugo，插图片"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-hashtag="hugo，插图片"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Reddit" data-sharer="reddit" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-title="Hugo插入图片"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-title="Hugo插入图片" data-ralateuid="u/2021117287"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-title="Hugo插入图片"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/baidu.svg"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-title="Hugo插入图片" data-hashtags="hugo"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-hashtag="hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Reddit" data-sharer="reddit" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-title="Hugo插入图片"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-title="Hugo插入图片" data-ralateuid="u/2021117287"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://MasterLvov.github.io/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-title="Hugo插入图片"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/baidu.svg"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo%E6%8F%92%E5%9B%BE%E7%89%87/">hugo，插图片</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo/">hugo</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>

@@ -128,9 +128,9 @@
 <p>把图片放到 <code>static/</code>（）下，在文章中使用绝对路径引用图片</p>
 </li>
 <li>
-<p>把图片放到和文章同级目录下，通过相对路径引用图片
-从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 <code>hugo server -D</code>预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 <code>content/{{section}}/</code>下多嵌套一层目录。
-之所以把图片放到<code>static/</code>下，是因为hugo在构建时会把<code>static/</code>下所有内容移到<code>public/</code>下。构建后<code>content/</code>下的内容也会被移到<code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
+<p>把图片放到和文章同级目录下，通过相对路径引用图片</p>
+<p>从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 <code>hugo server -D</code>预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 <code>content/{{section}}/</code>下多嵌套一层目录。
+之所以把图片放到 <code>static/</code>下，是因为hugo在构建时会把 <code>static/</code>下所有内容移到 <code>public/</code>下。构建后 <code>content/</code>下的内容也会被移到 <code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -154,12 +154,12 @@
         data-srcset="%e7%85%a7%e7%89%872.png, %e7%85%a7%e7%89%872.png 1.5x, %e7%85%a7%e7%89%872.png 2x"
         data-sizes="auto"
         alt="照片2.png"
-        title="image-相对路劲插入" />
-第二种方法是把图片和文章放在同级目录，比如<code>content/{{section}}/{{article_name}}/</code>，这样虽会显得<code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p>
+        title="image-相对路插入" />
+第二种方法是把图片和文章放在同级目录，比如 <code>content/{{section}}/{{article_name}}/</code>，这样虽会显得 <code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p>
 </li>
 </ul></div><div class="post-footer">
         <a href="/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo%E6%8F%92%E5%9B%BE%E7%89%87/">hugo，插图片</a></div></div>
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo/">hugo</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/%E4%B8%80%E4%BA%9B%E6%AF%95%E4%B8%9A%E7%85%A7%E7%89%87/">一些毕业照片</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>咸蛋超学锁</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-06-06 22:10:46">2022-06-06 22:10:46</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%AF%95%E4%B8%9A%E5%AD%A3/"><i class="far fa-folder fa-fw"></i>毕业季</a></span></div><div class="content"></div><div class="post-footer">
