@@ -177,28 +177,6 @@
 <p></p>
 <p>第二种方法是把图片和文章放在同级目录 <code>content/{{section}}/{{article_name}}/</code>，这样虽会显得 <code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p>]]></description>
 </item><item>
-    <title>相对路径</title>
-    <link>https://MasterLvov.github.io/%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/</link>
-    <pubDate>Tue, 07 Jun 2022 21:43:03 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://MasterLvov.github.io/%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/</guid>
-    <description><![CDATA[<h1 id="hugo建网站插入图片需要注意的小点">hugo建网站插入图片需要注意的小点</h1>
-<p>在文章中插入图片的方式有绝对路径和相对路劲两种，各有利弊，可以根据情况选择。</p>
-<ul>
-<li>
-<p>把图片放到 <code>static/</code>（）下，在文章中使用绝对路径引用图片</p>
-</li>
-<li>
-<p>把图片放到和文章同级目录下，通过相对路径引用图片</p>
-<p>从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 <code>hugo server -D</code>预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 <code>content/{{section}}/</code>下多嵌套一层目录。
-之所以把图片放到 <code>static/</code>下，是因为hugo在构建时会把 <code>static/</code>下所有内容移到 <code>public/</code>下。构建后 <code>content/</code>下的内容也会被移到 <code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。</p>
-<p></p>
-<p></p>
-<p></p>
-</li>
-</ul>
-<p>第二种方法是把图片和文章放在同级目录，比如 <code>content/{{section}}/{{article_name}}/</code>，这样虽会显得 <code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p>]]></description>
-</item><item>
     <title>多维空间</title>
     <link>https://MasterLvov.github.io/%E5%A4%9A%E7%BB%B4%E7%A9%BA%E9%97%B4/</link>
     <pubDate>Tue, 07 Jun 2022 21:20:42 &#43;0800</pubDate>
