@@ -99,7 +99,7 @@ git push -u origin master
 
  ![image-202206070102](202206070102.png)
 
-  ![image-202206070103](202206070103.png)
+ ![image-202206070103](202206070103.png)
 
 第二种方法是把图片和文章放在同级目录 `content/{{section}}/{{article_name}}/`，这样虽会显得 `content/`下略显冗余，但可以在预览或构建后都正确显示图片。
 
