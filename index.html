@@ -120,6 +120,195 @@
         alt="/images/avatar.png"
         title="/images/avatar.png" /></a></div><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2><div class="links"><a href="https://github.com/Masterlvov" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="https://weibo.com/u/2021117287" title="微博" target="_blank" rel="noopener noreffer me"><i class="fab fa-weibo fa-fw"></i></a><a href="https://www.zhihu.com/people/lu-xiao-bu-87-7" title="知乎" target="_blank" rel="noopener noreffer me"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/zhihu.svg"></i></a><a href="https://space.bilibili.com/21956965" title="bilibili" target="_blank" rel="noopener noreffer me"><i data-svg-src="/svg/icons/bilibili.min.svg"></i></a><a href="mailto:lvovriddler@gmail.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/hugo%E6%97%A5%E5%B8%B8%E6%93%8D%E4%BD%9C/">Hugo日常操作</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>咸蛋超学锁</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-06-08 10:17:51">2022-06-08 10:17:51</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%90%AD%E5%8D%9A%E5%AE%A2/"><i class="far fa-folder fa-fw"></i>搭博客</a></span></div><div class="content"><h1 id="hugo日常操作">hugo日常操作</h1>
+<h2 id="新建文章">新建文章</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 1.新建一篇文章，在网站根目录：G:\hugo\blog
+</span></span><span class="line"><span class="cl">hugo new posts/测试博客.md
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 2.在目录 G:\hugo\blog\content\posts下找到对应文件进行修改
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 3.本地预览, http://localhost:1313/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hugo server -D
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 4.构建 Hugo 网站（在blog目录）
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 5.切换到目录 H:\HugoWebsite\blog\public ，提交修改至本地库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cd public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m &#39;commit info&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 6.将修改推至远程库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git push -u origin master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="修改文章">修改文章</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 1.当前工作目录：G:\hugo\blog
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 2.在目录 G:\hugo\blog\content\posts下找到对应文件进行修改
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 3.本地预览, http://localhost:1313/ 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hugo server -D
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 4.构建 Hugo 网站（在blog目录）
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 5.切换到目录 G:\hugo\blog\public ，提交修改至本地库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cd public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m &#39;commit info&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 6.将修改推至远程库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git push -u origin master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="删除文章">删除文章</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 1.当前工作目录：G:\hugo\blog
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 2.删除两处文件（在目录 G:\hugo\blog\content\posts 、G:\hugo\blog\public  下找到对应文件进行删除），其中 public 下文件不删除也不影响显示，只是该文件就会一直存在，另外该目录下即便文件（除.git)删错或者全部删除也是不影响的，应为 hugo 命令会全部重建。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 3.本地预览, http://localhost:1313/ 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hugo server -D
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 4.构建 Hugo 网站
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 5.切换到目录 H:\HugoWebsite\blog\public ，提交修改至本地库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cd public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m &#39;commit info&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 6.将修改推至远程库
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git push -u origin master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="删除博客不完全导致文章不能正常显示">删除博客不完全导致文章不能正常显示</h3>
+<p>如果文章删除不完全，就再推送，导致文章页面出错，不能显示。这是删除此篇文章（posts和public下对应内容），再新建一篇即可正常显示。</p>
+<h2 id="hugo博文内增加图片">hugo博文内增加图片</h2>
+<p>在文章中插入图片的方式有绝对路径和相对路劲两种，各有利弊，可以根据情况选择。</p>
+<ul>
+<li>把图片放到 <code>static/</code>（）下，在文章中使用绝对路径引用图片</li>
+<li>把图片放到和文章同级目录下，通过相对路径引用图片</li>
+</ul>
+<p>从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 <code>hugo server -D</code>预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 <code>content/{{section}}/</code>下多嵌套一层目录。
+之所以把图片放到 <code>static/</code>下，是因为hugo在构建时会把 <code>static/</code>下所有内容移到 <code>public/</code>下。构建后 <code>content/</code>下的内容也会被移到 <code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。比如下面几张图。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="202206070101.png"
+        data-srcset="202206070101.png, 202206070101.png 1.5x, 202206070101.png 2x"
+        data-sizes="auto"
+        alt="202206070101.png"
+        title="image-202206070101" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="202206070102.png"
+        data-srcset="202206070102.png, 202206070102.png 1.5x, 202206070102.png 2x"
+        data-sizes="auto"
+        alt="202206070102.png"
+        title="image-202206070102" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="202206070103.png"
+        data-srcset="202206070103.png, 202206070103.png 1.5x, 202206070103.png 2x"
+        data-sizes="auto"
+        alt="202206070103.png"
+        title="image-202206070103" /></p>
+<p>第二种方法是把图片和文章放在同级目录 <code>content/{{section}}/{{article_name}}/</code>，这样虽会显得 <code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p></div><div class="post-footer">
+        <a href="/hugo%E6%97%A5%E5%B8%B8%E6%93%8D%E4%BD%9C/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo/">hugo</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/">相对路径</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>咸蛋超学锁</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-06-07 21:43:03">2022-06-07 21:43:03</time></span></div><div class="content"><h1 id="hugo建网站插入图片需要注意的小点">hugo建网站插入图片需要注意的小点</h1>
 <p>在文章中插入图片的方式有绝对路径和相对路劲两种，各有利弊，可以根据情况选择。</p>
