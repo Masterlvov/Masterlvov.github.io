@@ -13,7 +13,7 @@ xelatex myCV-Photo.tex
 
 编译好的简历如下图所示：
 
-![image-resume](resume.png)
+<center><p>![image-resume](resume.png)</p></center>
 
 # References
 

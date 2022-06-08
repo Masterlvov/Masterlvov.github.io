@@ -3,7 +3,7 @@
 
 那些起早努力的日子，那些熬夜的时光，那些你太累觉得站不起来却依然之城自己起身得夜晚，那才是梦想的力量，重要的不是结果，是过程，也许你的梦想不会实现，但是更好的一定在路上。[kobe](https://www.youtube.com/watch?v=3Sq_SAO4gaY)
 
-![image-kobe](kobe.jpg)
+<center><p>![image-kobe](kobe.jpg)</p></center>
 
 You do the work
 

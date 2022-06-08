@@ -11,7 +11,7 @@
     <author>作者</author>
     <guid>https://MasterLvov.github.io/%E7%A7%91%E6%AF%94-%E6%A2%A6%E6%83%B3%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
     <description><![CDATA[<p>那些起早努力的日子，那些熬夜的时光，那些你太累觉得站不起来却依然之城自己起身得夜晚，那才是梦想的力量，重要的不是结果，是过程，也许你的梦想不会实现，但是更好的一定在路上。<a href="https://www.youtube.com/watch?v=3Sq_SAO4gaY" target="_blank" rel="noopener noreffer">kobe</a></p>
-<p></p>
+<center><p>![image-kobe](kobe.jpg)</p></center>
 <p>You do the work</p>
 <p>如果你付出努力</p>
 <p>you work hard enough</p>
@@ -67,11 +67,11 @@
 <p><a href="https://github.com/Masterlvov/ciac_beamer" target="_blank" rel="noopener noreffer">源文件</a>包括slide.tex+oucslide.sty+主题文件+必要的图片（logo、免冠照片）+鸿蒙字体。</p>
 <p></p>
 <p>然后xelatex编译即可。示例如下：</p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>]]></description>
+<center><p>![image-beamer0](微信图片_20220608213818.png)</p></center>
+<center><p>![image-beamer1](微信图片_20220608213819.png)</p></center>
+<center><p>![image-beamer2](微信图片_20220608213820.png)</p></center>
+<center><p>![image-beamer3](微信图片_20220608213821.png)</p></center>
+<center><p>![image-beamer4](微信图片_20220608213822.png)</p></center>]]></description>
 </item><item>
     <title>一个简洁的中文简历Latex模板</title>
     <link>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E7%AE%80%E6%B4%81%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86latex%E6%A8%A1%E6%9D%BF/</link>
@@ -90,7 +90,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>编译好的简历如下图所示：</p>
-<p></p>
+<center><p>![image-resume](resume.png)</p></center>
 <h1 id="references">References</h1>
 <p><a href="https://github.com/Htallone/myCV" target="_blank" rel="noopener noreffer">Htallone/resume</a></p>
 <p><a href="https://github.com/billryan/resume" target="_blank" rel="noopener noreffer">billryan/resume</a></p>
@@ -263,8 +263,8 @@
 </ul>
 <p>从最终效果来看，两种方法在构建后都能正确显示图片，但第一种方法的问题在于使用 <code>hugo server -D</code>预览时无法正确加载图片，第二种方法可以在预览时正确加载图片，但会导致 <code>content/{{section}}/</code>下多嵌套一层目录。
 之所以把图片放到 <code>static/</code>下，是因为hugo在构建时会把 <code>static/</code>下所有内容移到 <code>public/</code>下。构建后 <code>content/</code>下的内容也会被移到 <code>public/</code>下，这样相当于文章和图片有共同的根目录，在文章中使用绝对引用即可正确显示图片。比如下面几张图。</p>
-<p></p>
-<p></p>
+<center><p> ![image-202206070101](202206070101.png)</p></center>
+<center><p> ![image-202206070102](202206070102.png)</p></center>
 <p></p>
 <p>第二种方法是把图片和文章放在同级目录 <code>content/{{section}}/{{article_name}}/</code>，这样虽会显得 <code>content/</code>下略显冗余，但可以在预览或构建后都正确显示图片。</p>]]></description>
 </item><item>
