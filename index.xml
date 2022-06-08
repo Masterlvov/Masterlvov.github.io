@@ -4,9 +4,34 @@
         <link>https://MasterLvov.github.io/</link>
         <description>咸蛋超学锁的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>lvovriddler@gmail.com (咸蛋超学锁)</managingEditor>
-            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 Jun 2022 10:17:51 &#43;0800</lastBuildDate>
+            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 Jun 2022 16:52:50 &#43;0800</lastBuildDate>
             <atom:link href="https://MasterLvov.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>一个简洁的中文简历Latex模板</title>
+    <link>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E7%AE%80%E6%B4%81%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86latex%E6%A8%A1%E6%9D%BF/</link>
+    <pubDate>Wed, 08 Jun 2022 16:52:50 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E7%AE%80%E6%B4%81%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86latex%E6%A8%A1%E6%9D%BF/</guid>
+    <description><![CDATA[<h1 id="一个简洁的中文简历-latex模板">一个简洁的中文简历 LaTeX模板</h1>
+<p>源文件包括 myCV-Photo.tex+必要的图片（logo、免冠照片）</p>
+<p>替换简历中的个人信息（图片、个人信息等）使用xelatex编译</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">xelatex myCV-Photo.tex
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>编译好的简历如下图所示：</p>
+<p></p>
+<h1 id="references">References</h1>
+<p><a href="https://github.com/Htallone/myCV" target="_blank" rel="noopener noreffer">Htallone/resume</a></p>
+<p><a href="https://github.com/billryan/resume" target="_blank" rel="noopener noreffer">billryan/resume</a></p>
+<p><a href="https://www.wondercv.com/zh-CN/resume_templates" target="_blank" rel="noopener noreffer">WonderCV </a></p>
+<h1 id="license">License</h1>
+<p><a href="http://opensource.org/licenses/MIT" target="_blank" rel="noopener noreffer">The MIT License (MIT)</a></p>]]></description>
+</item><item>
     <title>Hugo日常操作</title>
     <link>https://MasterLvov.github.io/hugo%E6%97%A5%E5%B8%B8%E6%93%8D%E4%BD%9C/</link>
     <pubDate>Wed, 08 Jun 2022 10:17:51 &#43;0800</pubDate>
