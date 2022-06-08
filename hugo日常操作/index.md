@@ -1,9 +1,9 @@
 # Hugo日常操作
 
 
-# hugo日常操作
+## hugo日常操作
 
-## 新建文章
+### 新建文章
 
 ```
 # 1.新建一篇文章，在网站根目录：G:\hugo\blog
@@ -30,7 +30,7 @@ git commit -m 'commit info'
 git push -u origin master
 ```
 
-## 修改文章
+### 修改文章
 
 ```
 # 1.当前工作目录：G:\hugo\blog
@@ -56,7 +56,7 @@ git commit -m 'commit info'
 git push -u origin master
 ```
 
-## 删除文章
+### 删除文章
 
 ```
 # 1.当前工作目录：G:\hugo\blog
@@ -82,13 +82,11 @@ git commit -m 'commit info'
 git push -u origin master
 ```
 
-### 删除博客不完全导致文章不能正常显示
+#### 删除博客不完全导致文章不能正常显示
 
 如果文章删除不完全，就再推送，导致文章页面出错，不能显示。这是删除此篇文章（posts和public下对应内容），再新建一篇即可正常显示。
 
-
-
-## hugo博文内增加图片
+### hugo博文内增加图片
 
 在文章中插入图片的方式有绝对路径和相对路劲两种，各有利弊，可以根据情况选择。
 
@@ -105,11 +103,6 @@ git push -u origin master
   ![image-202206070103](202206070103.png)
 
 第二种方法是把图片和文章放在同级目录 `content/{{section}}/{{article_name}}/`，这样虽会显得 `content/`下略显冗余，但可以在预览或构建后都正确显示图片。
-
-
-
-
-
 
 <!--more-->
 

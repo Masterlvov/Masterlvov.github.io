@@ -1,7 +1,9 @@
 # 科比：梦想的力量
 
-那些起早努力的日子，那些熬夜的时光，那些你太累觉得站不起来却依然之城自己起身得夜晚，那才是梦想的力量，重要的不是结果，是过程，也许你的梦想不会实现，但是更好的一定在路上。
 
+那些起早努力的日子，那些熬夜的时光，那些你太累觉得站不起来却依然之城自己起身得夜晚，那才是梦想的力量，重要的不是结果，是过程，也许你的梦想不会实现，但是更好的一定在路上。[kobe](https://www.youtube.com/watch?v=3Sq_SAO4gaY)
+
+![image-kobe](kobe.jpg)
 
 You do the work
 
@@ -91,5 +93,8 @@ Something greater will
 
 更伟大的梦想能实现
 
+[kobetalk](https://v.qq.com/x/page/u327036h4c8.html)
+
 <!--more-->
+
 
