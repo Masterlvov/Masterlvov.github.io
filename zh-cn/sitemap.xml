@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://MasterLvov.github.io/categories/</loc><lastmod>2022-06-08T21:44:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://MasterLvov.github.io/categories/</loc><lastmod>2022-06-12T20:26:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://MasterLvov.github.io/en/categories/"
@@ -15,25 +15,11 @@
                     hreflang="zh-cn"
                     href="https://MasterLvov.github.io/categories/"
                     /></url><url>
-            <loc>https://MasterLvov.github.io/posts/</loc><lastmod>2022-06-08T21:44:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://MasterLvov.github.io/%E7%A7%91%E6%AF%94-%E6%A2%A6%E6%83%B3%E7%9A%84%E5%8A%9B%E9%87%8F/</loc><lastmod>2022-06-08T21:44:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://MasterLvov.github.io/</loc><lastmod>2022-06-08T21:44:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://MasterLvov.github.io/en/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://MasterLvov.github.io/fr/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://MasterLvov.github.io/"
-                    /></url><url>
-            <loc>https://MasterLvov.github.io/categories/%E8%AF%AD%E5%BD%95/</loc><lastmod>2022-06-08T21:44:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://MasterLvov.github.io/tags/latex/</loc><lastmod>2022-06-08T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://MasterLvov.github.io/categories/latex/</loc><lastmod>2022-06-08T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://MasterLvov.github.io/tags/</loc><lastmod>2022-06-08T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://MasterLvov.github.io/tags/git/</loc><lastmod>2022-06-12T20:26:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://MasterLvov.github.io/categories/git/</loc><lastmod>2022-06-12T20:26:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://MasterLvov.github.io/git%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</loc><lastmod>2022-06-12T20:26:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://MasterLvov.github.io/posts/</loc><lastmod>2022-06-12T20:26:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://MasterLvov.github.io/tags/</loc><lastmod>2022-06-12T20:26:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://MasterLvov.github.io/en/tags/"
@@ -46,6 +32,23 @@
                     hreflang="zh-cn"
                     href="https://MasterLvov.github.io/tags/"
                     /></url><url>
+            <loc>https://MasterLvov.github.io/</loc><lastmod>2022-06-12T20:26:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://MasterLvov.github.io/en/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://MasterLvov.github.io/fr/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://MasterLvov.github.io/"
+                    /></url><url>
+            <loc>https://MasterLvov.github.io/%E7%A7%91%E6%AF%94-%E6%A2%A6%E6%83%B3%E7%9A%84%E5%8A%9B%E9%87%8F/</loc><lastmod>2022-06-08T21:44:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://MasterLvov.github.io/categories/%E8%AF%AD%E5%BD%95/</loc><lastmod>2022-06-08T21:44:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://MasterLvov.github.io/tags/latex/</loc><lastmod>2022-06-08T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://MasterLvov.github.io/categories/latex/</loc><lastmod>2022-06-08T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://MasterLvov.github.io/%E4%B8%80%E4%BB%BDciac%E7%9A%84%E5%B9%BB%E7%81%AF%E7%89%87%E6%A8%A1%E6%9D%BF/</loc><lastmod>2022-06-08T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://MasterLvov.github.io/tags/latex-resume/</loc><lastmod>2022-06-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E7%AE%80%E6%B4%81%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86latex%E6%A8%A1%E6%9D%BF/</loc><lastmod>2022-06-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>

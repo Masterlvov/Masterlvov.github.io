@@ -4,7 +4,104 @@
         <link>https://MasterLvov.github.io/posts/</link>
         <description>所有文章 | 咸蛋超学锁的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>lvovriddler@gmail.com (咸蛋超学锁)</managingEditor>
-            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 Jun 2022 21:44:15 &#43;0800</lastBuildDate><atom:link href="https://MasterLvov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 12 Jun 2022 20:26:14 &#43;0800</lastBuildDate><atom:link href="https://MasterLvov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Git命令大全</title>
+    <link>https://MasterLvov.github.io/git%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</link>
+    <pubDate>Sun, 12 Jun 2022 20:26:14 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://MasterLvov.github.io/git%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8/</guid>
+    <description><![CDATA[<p>下载并安装git之后，之后就是与GitHub绑定以便于上传文件。</p>
+<h3 id="git-绑定github">git 绑定github</h3>
+<p>用git上传文件到GitHub首先得利用SSH登录远程主机，而登录方式有两种：一种是口令登录；另一种是公钥登录。口令登录每次都要输入密码十分麻烦，而公钥登录就省去了输入密码的步骤，所以我们选择公钥授权。首先我们得在 GitHub 上添加 SSH key 配置，要想生成SSH key，就要先安装 SSH，不过我们安装了 Git Bash，其应该自带了 SSH。检验一下是否安装 SSH，我们在新建的文件夹中右键打开 Git Bash：如上图所示，即已安装 SSH.</p>
+<p></p>
+<p>然后，输入 ssh-keygen -t rsa 命令 ，表示我们指定 RSA 算法生成密钥，然后敲四次回车键，之后就就会生成两个文件，分别为秘钥 id_rsa 和公钥 id_rsa.pub.   文件的位置在 Git Bash 上面都有显示，比如：C:\Users\lvov.ssh</p>
+<p>接下来我们要做的事情就是把公钥 id_rsa.pub 的内容添加到 GitHub。复制公钥 id_rsa.pub 文件里的内容，你可以通过目录找到 id_rsa.pub 文件的位置，用记事本打开文件复制。</p>
+<p>然后到我们的 GitHub 主页，先点击右上角，再点击 <em><strong>settings</strong></em> &mdash;<em><strong>SSH and GPG keys</strong></em>&mdash;***New SSH key.***将公钥 id_rsa.pub 文件里的内容粘贴即可。验证是否成功，我们可以通过在 Git Bash 中输入 ssh -T <a href="mailto:git@github.com" rel="">git@github.com</a> 进行检验：</p>
+<p></p>
+<p>第一次会出现这种情况，填 yes 就行，若出现下图中的情况，则表明绑定成功：
+</p>
+<p>然后就可以上传文件了。</p>
+<p>绑定的操作步骤</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">#下载git，生成SSH key 
+</span></span><span class="line"><span class="cl">ssh-keygen -t rsa 
+</span></span><span class="line"><span class="cl">#然后在C:\Users\lvov\.ssh目录找到 id_rsa.pub ，将其中内容复制到GitHub上。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="利用git上传代码到云端">利用git上传代码到云端</h3>
+<p>如下图所示在GitHub主页新建仓库，一般上不要选择新建README.md文件，这样会使得默认有个main分支（以前也是master分支），而在git客户端默认分支是master，这样会导致多一步操作。</p>
+<p></p>
+<p>创建成功如下图所示，显然我们需要用到的就是以下的几个命令。</p>
+<p></p>
+<p>然后我们可以在本地创建一个项目，如下图所示。</p>
+<p>
+然后我们在该目录下git bash here打开git，</p>
+<p>首先 <code>git init</code>初始化，我们可以发现此时多了一个.git文件夹，这就是跟踪管理版本库的。</p>
+<p>接着执行指令：<code>git add .</code>（将所有文件添加到仓库）</p>
+<p>然后执行指令：<code>git commit -m &quot;commit info&quot;</code>（把文件提交到本地仓库）</p>
+<p>然后执行指令：
+<code>git remote add origin git@github.com:Masterlvov/lvov.git</code>（关联GitHub仓库）</p>
+<p>执行指令：<code>git push -u origin master</code>（一般第一次推送会出现问题，因为本地的 git 库和远程的库并不是一致的，需要进行一次 pull 操作才能继续 push。 第一种解决办法就是加参数 -f ，强制推送，但是这样很危险，会导致其他的更新提交失败，也就是说原来该库下所有文件都会被删除掉，只剩下本次提交的文件了。日常不建议这么操作，但是其实本次第一次是可以的，因为当前库下没有还没有有效文件。<code>git push -u -f origin master</code>）</p>
+<p>到此，本地代码已经推送到github仓库了，我们现在去githubt仓库看看。</p>
+<p>第一次关联操作也就是以下几个步骤：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">#在GitHub主页创建仓库（不要添加README.md文件），本地创建项目，然后在该目录右键git bash here打开git依次执行以下命令
+</span></span><span class="line"><span class="cl">#初始化
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">#将所有文件添加到仓库
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">#把文件提交到本地仓库
+</span></span><span class="line"><span class="cl">git commit -m &#34;commit info&#34;
+</span></span><span class="line"><span class="cl">#关联GitHub仓库
+</span></span><span class="line"><span class="cl">git remote add origin git@github.com:Masterlvov/lvov.git
+</span></span><span class="line"><span class="cl"># 推送到远程仓库
+</span></span><span class="line"><span class="cl">git push -u origin master
+</span></span><span class="line"><span class="cl"># 第一次失败的解决办法
+</span></span><span class="line"><span class="cl">git push -u origin master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="日常推送操作">日常推送操作</h5>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 将修改推至本地库
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m &#34;commit info&#34;
+</span></span><span class="line"><span class="cl"># 将修改推至远程库
+</span></span><span class="line"><span class="cl">git push -u origin master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="git命令大全图示">git命令大全图示</h3>
+<p></p>]]></description>
+</item><item>
     <title>科比：梦想的力量</title>
     <link>https://MasterLvov.github.io/%E7%A7%91%E6%AF%94-%E6%A2%A6%E6%83%B3%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
     <pubDate>Wed, 08 Jun 2022 21:44:15 &#43;0800</pubDate>
