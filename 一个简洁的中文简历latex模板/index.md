@@ -1,7 +1,6 @@
 # 一个简洁的中文简历Latex模板
 
-
-## 一个简洁的中文简历 LaTeX模板
+## 一个的中文简历 LaTeX模板
 
 [源文件](https://github.com/Masterlvov/lvov_resume)包括 myCV-Photo.tex+必要的图片（logo、免冠照片）
 
@@ -28,5 +27,4 @@ xelatex myCV-Photo.tex
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
 
 <!--more-->
-
 
