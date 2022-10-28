@@ -1,6 +1,5 @@
 # Hugo日常操作
 
-
 ## hugo日常操作
 
 ### 新建文章
@@ -104,5 +103,4 @@ git push -u origin master
 第二种方法是把图片和文章放在同级目录 `content/{{section}}/{{article_name}}/`，这样虽会显得 `content/`下略显冗余，但可以在预览或构建后都正确显示图片。
 
 <!--more-->
-
 
