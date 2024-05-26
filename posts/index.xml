@@ -4,7 +4,23 @@
         <link>https://MasterLvov.github.io/posts/</link>
         <description>所有文章 | 咸蛋超学锁的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>lvovriddler@gmail.com (咸蛋超学锁)</managingEditor>
-            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 08 Nov 2022 21:38:00 &#43;0800</lastBuildDate><atom:link href="https://MasterLvov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lvovriddler@gmail.com (咸蛋超学锁)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 25 Nov 2022 21:45:27 &#43;0800</lastBuildDate><atom:link href="https://MasterLvov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>一个批量处理GITT数据求锂离子扩散系数的python脚本</title>
+    <link>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86gitt%E6%95%B0%E6%8D%AE%E6%B1%82%E9%94%82%E7%A6%BB%E5%AD%90%E6%89%A9%E6%95%A3%E7%B3%BB%E6%95%B0%E7%9A%84python%E8%84%9A%E6%9C%AC/</link>
+    <pubDate>Fri, 25 Nov 2022 21:45:27 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86gitt%E6%95%B0%E6%8D%AE%E6%B1%82%E9%94%82%E7%A6%BB%E5%AD%90%E6%89%A9%E6%95%A3%E7%B3%BB%E6%95%B0%E7%9A%84python%E8%84%9A%E6%9C%AC/</guid>
+    <description><![CDATA[<p>Li在活性物质内的扩散是一个重要的反应过程，也是锂离子电池内部化学反应的限制环节，因此L泳扩散系数是锂离子电池活性物质重要的一个参数，扩散系数对锂离子电池倍率性能有着重要的意义，求锂离子扩散系数的方法有CV、GITT、EIS、PITT等方法，其中GITT因为测试柜资源较为丰富而被广泛采用。GTT方法假设扩散过程主要发生在固相材料的表层，GITT方法主要有两个部分组成，其中第一部分为小电流恒流脉冲放电，为了满足扩散过程仅发生在表层的假设，恒流脉冲放电的时间t要比较短，需要满足t &lt; 2L/D，其中L为材料的特征长度﹐D为材料的扩散系数;第二部分为长时间的静置，以让$Li^+$
+在活性物质内部充分扩散达到平衡状态。</p>
+<h2 id="gitt方法原理以及处理方法">GITT方法原理以及处理方法</h2>
+<h2 id="gitt数据处理脚本的编写">GITT数据处理脚本的编写</h2>
+<h3 id="编写逻辑">编写逻辑</h3>
+<ul>
+<li>首先，通过导入一些必要的包来读取excel数据</li>
+<li>然后，计算</li>
+</ul>
+<h3 id="脚本使用方法">脚本使用方法</h3>]]></description>
+</item><item>
     <title>合并bib文件并去重的方法</title>
     <link>https://MasterLvov.github.io/%E5%90%88%E5%B9%B6bib%E6%96%87%E4%BB%B6%E5%B9%B6%E5%8E%BB%E9%87%8D%E7%9A%84%E6%96%B9%E6%B3%95/</link>
     <pubDate>Tue, 08 Nov 2022 21:38:00 &#43;0800</pubDate>
@@ -244,44 +260,21 @@
 <p>更伟大的梦想能实现</p>
 <p><a href="https://v.qq.com/x/page/u327036h4c8.html" target="_blank" rel="noopener noreffer">kobetalk</a></p>]]></description>
 </item><item>
-    <title>一份ciac的幻灯片模板</title>
-    <link>https://MasterLvov.github.io/%E4%B8%80%E4%BB%BDciac%E7%9A%84%E5%B9%BB%E7%81%AF%E7%89%87%E6%A8%A1%E6%9D%BF/</link>
+    <title>时间跑得怎么这么快</title>
+    <link>https://MasterLvov.github.io/%E6%97%A5%E5%AD%90%E4%B8%80%E5%A4%A9%E5%A4%A9%E5%9C%B0%E6%B5%81%E9%80%9D/</link>
     <pubDate>Wed, 08 Jun 2022 17:17:31 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://MasterLvov.github.io/%E4%B8%80%E4%BB%BDciac%E7%9A%84%E5%B9%BB%E7%81%AF%E7%89%87%E6%A8%A1%E6%9D%BF/</guid>
-    <description><![CDATA[<h2 id="一个简洁的应化所幻灯片latex模板">一个简洁的应化所幻灯片LaTeX模板</h2>
-<p><a href="https://github.com/Masterlvov/ciac_beamer" target="_blank" rel="noopener noreffer">源文件</a>包括slide.tex+oucslide.sty+主题文件+必要的图片（logo、免冠照片）+鸿蒙字体。</p>
-<p></p>
-<p>然后xelatex编译即可。示例如下：
-</p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>]]></description>
-</item><item>
-    <title>一个简洁的中文简历Latex模板</title>
-    <link>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E7%AE%80%E6%B4%81%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86latex%E6%A8%A1%E6%9D%BF/</link>
-    <pubDate>Wed, 08 Jun 2022 16:52:50 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E7%AE%80%E6%B4%81%E7%9A%84%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86latex%E6%A8%A1%E6%9D%BF/</guid>
-    <description><![CDATA[<h2 id="一个的中文简历-latex模板">一个的中文简历 LaTeX模板</h2>
-<p><a href="https://github.com/Masterlvov/lvov_resume" target="_blank" rel="noopener noreffer">源文件</a>包括 myCV-Photo.tex+必要的图片（logo、免冠照片）</p>
-<p>替换简历中的个人信息（图片、个人信息等）使用xelatex编译</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">xelatex myCV-Photo.tex
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>编译好的简历如下图所示：</p>
-<p></p>
-<h1 id="references">References</h1>
-<p><a href="https://github.com/Htallone/myCV" target="_blank" rel="noopener noreffer">Htallone/resume</a></p>
-<p><a href="https://github.com/billryan/resume" target="_blank" rel="noopener noreffer">billryan/resume</a></p>
-<p><a href="https://www.wondercv.com/zh-CN/resume_templates" target="_blank" rel="noopener noreffer">WonderCV </a></p>
-<h1 id="license">License</h1>
-<p><a href="http://opensource.org/licenses/MIT" target="_blank" rel="noopener noreffer">The MIT License (MIT)</a></p>]]></description>
+    <guid>https://MasterLvov.github.io/%E6%97%A5%E5%AD%90%E4%B8%80%E5%A4%A9%E5%A4%A9%E5%9C%B0%E6%B5%81%E9%80%9D/</guid>
+    <description><![CDATA[<p>时间怎么跑得这么快呢，负面情绪包围了我这么久，我该怎么逃脱呢？</p>
+<p>消沉、害怕、自卑、失落、愧疚、后悔、不甘、烦躁、焦虑、患得患失。</p>
+<p>失眠、眼泪、心悸、羡慕、放纵。</p>
+<p>
+fig1 guil&ndash;</p>
+<p>
+fig2 enviou-</p>
+<p>
+fig3 sk-</p>
+<p>
+fig4 insomn&ndash;</p>]]></description>
 </item></channel>
 </rss>

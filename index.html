@@ -120,6 +120,20 @@
         alt="/images/avatar.png"
         title="/images/avatar.png" /></a></div><h2 class="home-subtitle"><div id="id-1" class="typeit"></div></h2><div class="links"><a href="https://github.com/Masterlvov" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="https://www.youtube.com/channel/UC3DJ4tTXv1DtzyObO_7HOKg/featured" title="YouTube" target="_blank" rel="noopener noreffer me"><i class="fab fa-youtube fa-fw"></i></a><a href="https://weibo.com/u/2021117287" title="微博" target="_blank" rel="noopener noreffer me"><i class="fab fa-weibo fa-fw"></i></a><a href="https://www.zhihu.com/people/lu-xiao-bu-87-7" title="知乎" target="_blank" rel="noopener noreffer me"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/zhihu.svg"></i></a><a href="https://space.bilibili.com/21956965" title="bilibili" target="_blank" rel="noopener noreffer me"><i data-svg-src="/svg/icons/bilibili.min.svg"></i></a><a href="mailto:lvovriddler@gmail.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me"><i class="fas fa-rss fa-fw"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/%E4%B8%80%E4%B8%AA%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86gitt%E6%95%B0%E6%8D%AE%E6%B1%82%E9%94%82%E7%A6%BB%E5%AD%90%E6%89%A9%E6%95%A3%E7%B3%BB%E6%95%B0%E7%9A%84python%E8%84%9A%E6%9C%AC/">一个批量处理GITT数据求锂离子扩散系数的python脚本</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>咸蛋超学锁</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-11-25 21:45:27">2022-11-25 21:45:27</time></span></div><div class="content"><p>Li在活性物质内的扩散是一个重要的反应过程，也是锂离子电池内部化学反应的限制环节，因此L泳扩散系数是锂离子电池活性物质重要的一个参数，扩散系数对锂离子电池倍率性能有着重要的意义，求锂离子扩散系数的方法有CV、GITT、EIS、PITT等方法，其中GITT因为测试柜资源较为丰富而被广泛采用。GTT方法假设扩散过程主要发生在固相材料的表层，GITT方法主要有两个部分组成，其中第一部分为小电流恒流脉冲放电，为了满足扩散过程仅发生在表层的假设，恒流脉冲放电的时间t要比较短，需要满足t &lt; 2L/D，其中L为材料的特征长度﹐D为材料的扩散系数;第二部分为长时间的静置，以让$Li^+$
+在活性物质内部充分扩散达到平衡状态。</p>
+<h2 id="gitt方法原理以及处理方法">GITT方法原理以及处理方法</h2>
+<h2 id="gitt数据处理脚本的编写">GITT数据处理脚本的编写</h2>
+<h3 id="编写逻辑">编写逻辑</h3>
+<ul>
+<li>首先，通过导入一些必要的包来读取excel数据</li>
+<li>然后，计算</li>
+</ul>
+<h3 id="脚本使用方法">脚本使用方法</h3></div><div class="post-footer">
+        <a href="/%E4%B8%80%E4%B8%AA%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86gitt%E6%95%B0%E6%8D%AE%E6%B1%82%E9%94%82%E7%A6%BB%E5%AD%90%E6%89%A9%E6%95%A3%E7%B3%BB%E6%95%B0%E7%9A%84python%E8%84%9A%E6%9C%AC/">阅读全文</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/python/">python</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/%E5%90%88%E5%B9%B6bib%E6%96%87%E4%BB%B6%E5%B9%B6%E5%8E%BB%E9%87%8D%E7%9A%84%E6%96%B9%E6%B3%95/">合并bib文件并去重的方法</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>咸蛋超学锁</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-11-08 21:38:00">2022-11-08 21:38:00</time></span></div><div class="content"><p>如下图所示，将两个bib文件与所用到的工具放在同一文件夹下，然后运行，即可得到合并去重后的文件。
 <img
@@ -171,35 +185,6 @@
 <h3 id="酸性">酸性</h3></div><div class="post-footer">
         <a href="/%E9%94%8C%E7%A9%BA%E6%B0%94%E7%94%B5%E6%B1%A0/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/battery/">battery</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/%E4%BA%8C%E5%85%83%E5%89%AA%E5%88%80%E5%B7%AE/">二元剪刀差</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>咸蛋超学锁</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2022-06-23 15:13:44">2022-06-23 15:13:44</time></span></div><div class="content"><p>朋友，请你时刻记住，我国自有国情在。</p>
-<p>东部是一番天地，西部是另一番天地。</p>
-<p>城市是一番天地，乡村是另一番天地。</p>
-<p>工人是一番天地，农民是另一番天地。</p>
-<p>有编制是一番天地，合同工是另一番天地。</p>
-<p>二元。</p>
-<p>这么说可能太虚了。说点实际的。</p>
-<p>沿海有的城市比很多发达国家的首都看着都强。</p>
-<p>内陆有些农村和非洲最穷的地方看着也差不了多少。</p>
-<p>有些人一个警戒线拉到小区门口饿死也出不去。</p>
-<p>有些人能开着大奔深夜奔袭1000多公里如入无人之境。</p>
-<p>有的乡村，儿童服毒集体自杀。</p>
-<p>有的城市，吵架宾利堵大劳。+有些人过生日买不到2块钱切面。</p>
-<p>有些人免费发的菜吃不了都得扔。+回到问题，我国能否普及4天工作制？</p>
-<p>不能。</p>
-<p>但我国的一部分人，早就是零天工作制了。生活水平远超欧美上层。</p>
-<p>我国的另一部分人，合同上是每周5天8小时工作制，原则上是每周6天12小时工作制，实际上是每周7天24小时随叫随到灵活工作制。</p>
-<p>说点题外话。</p>
-<p>改革开放，吸引外资给我国带来了技术。然而和技术同等宝贵的是现代的企业的生产运营和组织方式。</p>
-<p>从英国珍妮纺纱机的血汗工厂，到日内瓦国际工人代表大会提出八小时工作制用了差不多一个世纪。</p>
-<p>又过了半个多世纪以福特汽车工厂流水线为起源，才确立了五天八小时工作制。</p>
-<p>二十一世纪，一批欧美新兴企业基本上已经抛弃了五天八小时流水线工作制了。
-现在他们开始讨论4天工作制了。</p>
-<p>至于我国，94年以前全国单休。94年全国大小周。95年机关事业单位双休。这都过了快三十年了，大小周在民营企业都没有完全消失。灵活就业大潮下，还聊啥996，007有工作糊口不错了。</p>
-<p>所以现在问我四天工作制离我们有多远？</p>
-<p>我只能回答：没多远，非常近。就像燕郊和通州那么近。摸着石头过了河就到了。</p></div><div class="post-footer">
-        <a href="/%E4%BA%8C%E5%85%83%E5%89%AA%E5%88%80%E5%B7%AE/">阅读全文</a></div>
 </article><ul class="pagination"><li class="page-item active">
                     <span class="page-link">
                         <a href="/">1</a>
@@ -215,7 +200,7 @@
                 </li></ul></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.100.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
-                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">咸蛋超学锁</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></br>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">咸蛋超学锁</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></br>
                 <span id="busuanzi_container_site_pv">
                     访问量 <span id="busuanzi_value_site_pv"></span> 次
                 </span>
