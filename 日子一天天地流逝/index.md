@@ -6,7 +6,6 @@
 
 失眠、眼泪、心悸、羡慕、放纵。
 
-
 ![image-beamer0](后悔.jpg)
 fig1 guil--
 
@@ -18,7 +17,6 @@ fig3 sk-
 
 ![image-beamer3](失眠.jpg)
 fig4 insomn--
-
 
 <!--more-->
 
