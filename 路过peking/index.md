@@ -3,29 +3,29 @@
 # 路过北京
 国庆节回家来回转机都路过北京，我不知道去哪儿，相同的地方去了两遍，什么也没干，就在那儿静静地坐一会。你可以回到过去，但是那里已经没有人了。
 
-![image-1](1.jpg)
+![image-1](di1.jpg)
 
-![i第一次2](2.jpg)
+![image-2](di2.jpg)
 
-![i第一次3](3.jpg)
+![image-3](di3.jpg)
 
-![i第一次4](4.jpg)
+![image-4](di4.jpg)
 
-![i第一次5](5.jpg)
+![image-5](di5.jpg)
 
-![i第一次6](6.jpg)
+![image-6](di6.jpg)
 
-![i第一次1](1.1.jpg)
+![image-1](di11.jpg)
 
-![i第一次7](7.jpg)
+![image-7](di7.jpg)
 
-![i第一次8](8.jpg)
+![image-8](di8.jpg)
 
-![i第一次9](9.jpg)
+![image-9](di9.jpg)
 
-![i第一次10](10.jpg)
+![image-10](di10.jpg)
 
-![i第一次11](11.jpg)
+![image-11](dd11.jpg)
 
 ![image-北京机场](北京机场.jpg)
 
