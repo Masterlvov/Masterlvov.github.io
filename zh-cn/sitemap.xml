@@ -2,40 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://MasterLvov.github.io/github%E4%B8%BB%E9%A1%B5%E6%97%A0%E6%B3%95%E6%8E%A8%E9%80%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc><lastmod>2024-06-23T15:13:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/posts/</loc><lastmod>2024-06-23T15:13:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/</loc><lastmod>2024-06-23T15:13:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://MasterLvov.github.io/en/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://MasterLvov.github.io/fr/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://MasterLvov.github.io/"
-                    /></url><url>
-            <loc>https://MasterLvov.github.io/tags/</loc><lastmod>2024-05-23T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://MasterLvov.github.io/en/tags/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://MasterLvov.github.io/fr/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://MasterLvov.github.io/tags/"
-                    /></url><url>
-            <loc>https://MasterLvov.github.io/%E6%97%A5%E5%AD%90%E4%B8%80%E5%A4%A9%E5%A4%A9%E5%9C%B0%E6%B5%81%E9%80%9D/</loc><lastmod>2024-05-23T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/tags/%E5%BF%83%E6%83%85/</loc><lastmod>2024-05-23T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/tags/python/</loc><lastmod>2022-11-25T21:45:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86gitt%E6%95%B0%E6%8D%AE%E6%B1%82%E9%94%82%E7%A6%BB%E5%AD%90%E6%89%A9%E6%95%A3%E7%B3%BB%E6%95%B0%E7%9A%84python%E8%84%9A%E6%9C%AC/</loc><lastmod>2022-11-25T21:45:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/%E5%90%88%E5%B9%B6bib%E6%96%87%E4%BB%B6%E5%B9%B6%E5%8E%BB%E9%87%8D%E7%9A%84%E6%96%B9%E6%B3%95/</loc><lastmod>2022-11-08T21:38:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/categories/</loc><lastmod>2022-10-28T22:38:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://MasterLvov.github.io/categories/</loc><lastmod>2024-10-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://MasterLvov.github.io/en/categories/"
@@ -48,6 +15,41 @@
                     hreflang="zh-cn"
                     href="https://MasterLvov.github.io/categories/"
                     /></url><url>
+            <loc>https://MasterLvov.github.io/posts/</loc><lastmod>2024-10-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://MasterLvov.github.io/tags/</loc><lastmod>2024-10-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://MasterLvov.github.io/en/tags/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://MasterLvov.github.io/fr/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://MasterLvov.github.io/tags/"
+                    /></url><url>
+            <loc>https://MasterLvov.github.io/%E8%B7%AF%E8%BF%87peking/</loc><lastmod>2024-10-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://MasterLvov.github.io/</loc><lastmod>2024-10-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://MasterLvov.github.io/en/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://MasterLvov.github.io/fr/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://MasterLvov.github.io/"
+                    /></url><url>
+            <loc>https://MasterLvov.github.io/tags/%E5%BF%83%E6%83%85/</loc><lastmod>2024-10-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://MasterLvov.github.io/categories/%E5%BF%83%E6%83%85/</loc><lastmod>2024-10-08T16:52:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://MasterLvov.github.io/github%E4%B8%BB%E9%A1%B5%E6%97%A0%E6%B3%95%E6%8E%A8%E9%80%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc><lastmod>2024-06-23T15:13:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://MasterLvov.github.io/%E6%97%A5%E5%AD%90%E4%B8%80%E5%A4%A9%E5%A4%A9%E5%9C%B0%E6%B5%81%E9%80%9D/</loc><lastmod>2024-05-23T17:17:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://MasterLvov.github.io/tags/python/</loc><lastmod>2022-11-25T21:45:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://MasterLvov.github.io/%E4%B8%80%E4%B8%AA%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86gitt%E6%95%B0%E6%8D%AE%E6%B1%82%E9%94%82%E7%A6%BB%E5%AD%90%E6%89%A9%E6%95%A3%E7%B3%BB%E6%95%B0%E7%9A%84python%E8%84%9A%E6%9C%AC/</loc><lastmod>2022-11-25T21:45:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://MasterLvov.github.io/%E5%90%88%E5%B9%B6bib%E6%96%87%E4%BB%B6%E5%B9%B6%E5%8E%BB%E9%87%8D%E7%9A%84%E6%96%B9%E6%B3%95/</loc><lastmod>2022-11-08T21:38:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://MasterLvov.github.io/categories/python/</loc><lastmod>2022-10-28T22:38:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://MasterLvov.github.io/python%E5%BC%B9%E7%AA%97%E9%80%89%E6%8B%A9%E6%96%87%E4%BB%B6/</loc><lastmod>2022-10-28T22:38:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://MasterLvov.github.io/%E5%A6%82%E4%BD%95%E5%A4%8D%E5%88%B6csdn%E7%BD%91%E7%AB%99%E4%BB%A3%E7%A0%81/</loc><lastmod>2022-09-28T22:32:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -76,5 +78,4 @@
             <loc>https://MasterLvov.github.io/%E6%96%97%E4%BA%89%E7%BB%8F%E9%AA%8C/</loc><lastmod>2022-06-05T23:24:19&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://MasterLvov.github.io/tags/%E8%A7%81%E9%97%BB/</loc><lastmod>2022-06-05T23:24:19&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://MasterLvov.github.io/categories/%E8%A7%81%E9%97%BB/</loc><lastmod>2022-06-05T23:24:19&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/about/</loc><lastmod>2021-03-27T21:56:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MasterLvov.github.io/cc/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://MasterLvov.github.io/about/</loc><lastmod>2021-03-27T21:56:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
