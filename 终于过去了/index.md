@@ -14,6 +14,5 @@ leave
 ![image-leave](leave.jpg)
 人生是一本仓促的书，向前走而不是停留在过去，Your time is limited.
 
-
 <!--more-->
 
